@@ -3,35 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ng-site", "..\..\..\..\..\..\Workspace\Angular\ng-site", "{F95F3B5E-2ACF-4B85-A073-102FC4126D85}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_13534"
-		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Workspace\Angular\ng-site\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_13534\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_13534"
-		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\..\..\Workspace\Angular\ng-site\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_13534\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "13534"
-		SlnRelativePath = "..\..\..\..\..\..\Workspace\Angular\ng-site\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng-site.DataAccess", "ng-site.DataAccess\ng-site.DataAccess.csproj", "{1E016681-12CC-41D0-8C0E-0D8695E7B200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng-site", "ng-site\ng-site.csproj", "{7C257FDA-A784-4473-A66B-F0B157A73F7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ng-site.Tests", "ng-site.Tests\ng-site.Tests.csproj", "{BB9B95E7-E9FF-4D8D-B3D2-C826434BB3AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F95F3B5E-2ACF-4B85-A073-102FC4126D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F95F3B5E-2ACF-4B85-A073-102FC4126D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E016681-12CC-41D0-8C0E-0D8695E7B200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E016681-12CC-41D0-8C0E-0D8695E7B200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E016681-12CC-41D0-8C0E-0D8695E7B200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E016681-12CC-41D0-8C0E-0D8695E7B200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C257FDA-A784-4473-A66B-F0B157A73F7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C257FDA-A784-4473-A66B-F0B157A73F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C257FDA-A784-4473-A66B-F0B157A73F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C257FDA-A784-4473-A66B-F0B157A73F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9B95E7-E9FF-4D8D-B3D2-C826434BB3AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9B95E7-E9FF-4D8D-B3D2-C826434BB3AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9B95E7-E9FF-4D8D-B3D2-C826434BB3AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9B95E7-E9FF-4D8D-B3D2-C826434BB3AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
